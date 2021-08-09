@@ -1,4 +1,4 @@
-package cn.crabapples.mailspringbootstarter.exception;
+package cn.crabapples.mail.exception;
 
 
 /**

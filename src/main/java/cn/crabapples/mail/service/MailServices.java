@@ -1,7 +1,7 @@
-package cn.crabapples.mailspringbootstarter.service;
+package cn.crabapples.mail.service;
 
-import cn.crabapples.mailspringbootstarter.properties.ConfigProperties;
-import cn.crabapples.mailspringbootstarter.exception.ApplicationException;
+import cn.crabapples.mail.properties.ConfigProperties;
+import cn.crabapples.mail.exception.ApplicationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

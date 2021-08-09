@@ -1,6 +1,6 @@
-package cn.crabapples.mailspringbootstarter.config;
+package cn.crabapples.mail.config;
 
-import cn.crabapples.mailspringbootstarter.properties.ConfigProperties;
+import cn.crabapples.mail.properties.ConfigProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

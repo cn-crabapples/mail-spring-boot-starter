@@ -1,8 +1,8 @@
-package cn.crabapples.mailspringbootstarter.builder;
+package cn.crabapples.mail.builder;
 
 
 import ch.ethz.ssh2.crypto.Base64;
-import cn.crabapples.mailspringbootstarter.exception.ApplicationException;
+import cn.crabapples.mail.exception.ApplicationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

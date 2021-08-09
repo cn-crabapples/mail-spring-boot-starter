@@ -1,4 +1,4 @@
-package cn.crabapples.mailspringbootstarter.builder;
+package cn.crabapples.mail.builder;
 
 import javax.mail.Multipart;
 

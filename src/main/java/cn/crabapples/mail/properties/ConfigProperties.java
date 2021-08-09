@@ -1,7 +1,6 @@
-package cn.crabapples.mailspringbootstarter.properties;
+package cn.crabapples.mail.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * TODO 邮件配置类
