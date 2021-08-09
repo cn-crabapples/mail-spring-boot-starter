@@ -21,12 +21,12 @@ import java.util.Properties;
  * pc-name admin
  */
 @Component
-public class MailServices {
-    private static final Logger logger = LoggerFactory.getLogger(MailServices.class);
+public class MailService {
+    private static final Logger logger = LoggerFactory.getLogger(MailService.class);
     private final ConfigProperties configProperties;
     private final Session session;
 
-    public MailServices(ConfigProperties configProperties) {
+    public MailService(ConfigProperties configProperties) {
         this.configProperties = configProperties;
         session = initSession();
     }
