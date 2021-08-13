@@ -88,9 +88,10 @@ public class MailService {
 
     /**
      * 发送邮件
-     *
-     * @param title   邮件标题
+     * @param multipart 邮件内容
+     * @param title 邮件标题
      * @param targets 收件人
+     * @return 发送结果
      */
     public boolean sendEmail(Multipart multipart, String title, String[] targets) {
         try {
